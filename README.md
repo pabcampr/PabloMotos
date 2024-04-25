@@ -3,6 +3,7 @@ Pablo Motos Burgos, nacido el 31 de agosto de 1965 en Requena, Valencia, es un r
 ![image](https://github.com/pabcampr/pmotos/assets/8313350/df869b85-2c93-4ce8-985c-59c98422982e)
 
 ¿Cuánto gana Pablo Motos por cada programa de 'El Hormiguero'?
+
 Pablo Motos gana un salario de $4,393,456.00 al año, lo que equivale a aproximadamente $366,121.33 al mes. Esto se traduce en alrededor de $84,489.54 por semana y alrededor de $16,897.91 por día
 https://www.marca.com/tiramillas/cine-tv/2019/10/26/5db42098e2704ed6798b45c9.html
 https://paywizard.org/salary/vip-check/pablo-motos
