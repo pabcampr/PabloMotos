@@ -21,3 +21,14 @@ La carrera de Pablo Motos ha sido diversa y exitosa en el ámbito de la televisi
 [3] https://elpais.com/noticias/pablo-motos/
 [4] https://www.lecturas.com/television/pablo-motos-obligado-a-dar-explicaciones-en-el-hormiguero-por-el-desconcierto-generado-por-su-invitado_155754
 [5] https://www.lecturas.com/famosos/pablo-motos
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RV5TV9V9EH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RV5TV9V9EH');
+</script>
