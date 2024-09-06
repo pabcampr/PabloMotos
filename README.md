@@ -68,7 +68,7 @@ Pablo Motos ha demostrado ser mucho más que un simple presentador de televisió
 <script>
 // Example function to send data
 function sendEventData(visitorId, sessionDuration) {
-  const url = 'YOUR_WEB_APP_URL_HERE'; // Replace with your Google Apps Script web app URL
+  const url = 'https://script.google.com/macros/s/AKfycbx6QTqGceKsU9IRHuRFxCcKBUno1YGYFqv7OJbz_colbO85MPBpXHUjKsB3E6qMzRQ/exec'; // Replace with your Google Apps Script web app URL
 
   fetch(url, {
     method: 'POST',
