@@ -61,6 +61,10 @@ A pesar de su alto perfil público, Pablo Motos ha logrado mantener su vida pers
 ## Conclusión
 
 Pablo Motos ha demostrado ser mucho más que un simple presentador de televisión. Su visión, talento y dedicación han convertido a "El Hormiguero" en un pilar del entretenimiento español. A medida que continúa innovando y entreteniendo, su legado en la televisión seguirá creciendo, consolidando su lugar como una de las figuras más importantes de la televisión en España.
+
+
+
+
 <script>
   async function trackVisitor() {
     const startTime = new Date().getTime();
@@ -81,8 +85,7 @@ Pablo Motos ha demostrado ser mucho más que un simple presentador de televisió
       const endTime = new Date().getTime();
       const duration = (endTime - startTime) / 1000;  // duration in seconds
       
-      fetch('[YOUR_GOOGLE_APPS_SCRIPT_URL_HERE](https://script.google.com/macros/s/AKfycbyTZ_eW5CnmGennh_NAwEEdJBXT7OtUrAp6CqYhCu0/exec
-)', {
+      fetch('https://script.google.com/macros/s/AKfycbzKBzaqgUB2HcjkNMoc4etvgGp2xXUze4PQES7Eo10Exvi6yUdDI9mpBaEMwPxrThju/exec', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -91,12 +94,20 @@ Pablo Motos ha demostrado ser mucho más que un simple presentador de televisió
           location: location,
           duration: duration
         })
-      });
+      })
+      .then(response => response.text())
+      .then(data => console.log(data))
+      .catch(error => console.error('Error:', error));
     });
   }
 
   trackVisitor();
 </script>
+
+
+
+
+
 
 
 <!-- Google tag (gtag.js) -->
