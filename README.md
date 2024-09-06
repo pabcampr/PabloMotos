@@ -66,42 +66,29 @@ Pablo Motos ha demostrado ser mucho más que un simple presentador de televisió
 
 
 <script>
-  async function trackVisitor() {
-    const startTime = new Date().getTime();
-    
-    // Getting IP and Location
-    const ipResponse = await fetch('https://api.ipify.org?format=json');
-    const { ip } = await ipResponse.json();
-    
-    const locationResponse = await fetch(`https://ipapi.co/${ip}/json/`);
-    const locationData = await locationResponse.json();
-    const location = locationData.city + ", " + locationData.country_name;
-    
-    // Getting Device Information
-    const deviceType = /Mobi/i.test(navigator.userAgent) ? "Mobile" : "Desktop";
+// Example function to send data
+function sendEventData(visitorId, sessionDuration) {
+  const url = 'YOUR_WEB_APP_URL_HERE'; // Replace with your Google Apps Script web app URL
 
-    // Sending Data to Google Sheet
-    window.addEventListener('beforeunload', function() {
-      const endTime = new Date().getTime();
-      const duration = (endTime - startTime) / 1000;  // duration in seconds
-      
-      fetch('https://script.google.com/macros/s/AKfycbzKBzaqgUB2HcjkNMoc4etvgGp2xXUze4PQES7Eo10Exvi6yUdDI9mpBaEMwPxrThju/exec', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ip: ip,
-          device: deviceType,
-          location: location,
-          duration: duration
-        })
-      })
-      .then(response => response.text())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error:', error));
-    });
-  }
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      visitorId: visitorId,
+      sessionDuration: sessionDuration,
+    }),
+  })
+  .then(response => response.json())
+  .then(data => console.log('Success:', data))
+  .catch((error) => console.error('Error:', error));
+}
 
-  trackVisitor();
+// Example usage
+// Call this function when a visitor's session ends
+sendEventData('visitor123', 300); // 'visitor123' is an example visitor ID and 300 seconds (5 minutes) is the session duration
+
 </script>
 
 
