@@ -81,7 +81,8 @@ Pablo Motos ha demostrado ser mucho más que un simple presentador de televisió
       const endTime = new Date().getTime();
       const duration = (endTime - startTime) / 1000;  // duration in seconds
       
-      fetch('YOUR_GOOGLE_APPS_SCRIPT_URL_HERE', {
+      fetch('[YOUR_GOOGLE_APPS_SCRIPT_URL_HERE](https://script.google.com/macros/s/AKfycbyTZ_eW5CnmGennh_NAwEEdJBXT7OtUrAp6CqYhCu0/exec
+)', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
