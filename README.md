@@ -30,7 +30,7 @@ Pablo Motos, uno de los presentadores más icónicos de la televisión española
 
 ## Inicios y Carrera Temprana
 
-Nacido el 31 de agosto de 1965 en Requena, Valencia, Pablo Motos comenzó su carrera en el mundo de la radio. Trabajó en varias emisoras locales antes de dar el salto a la televisión. Su paso por la radio fue fundamental para desarrollar su estilo único y su habilidad para la improvisación, características que más tarde definirían su trabajo en la pantalla chica.
+Nacido el 31 de agosto de 1965 en Requena, Valencia, Pablo Motos comenzó su carrera en el mundo de la radio. Trabajó en varias emisoras locales antes de dar el salto a la televisión. Su paso por la radio fue fundamental para desarrollar su estilo único y su habilidad para la improvisación, características que más tarde definirían su trabajo en la pantalla chica.a
 
 ## El Surgimiento de 'El Hormiguero'
 
